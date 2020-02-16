@@ -14,8 +14,8 @@ jobs:
           npm install
       - uses: actions/upload-artifact@master
         with:
-    needs: build
-          path: public/
+         needs: build
+         path: public/
 
   test:
 
